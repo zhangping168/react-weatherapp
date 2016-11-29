@@ -15,5 +15,5 @@ app.use(function (req, res, next) {
 app.use(express.static('public'));
 
 app.listen(PORT, function(){
-  console.log('Listening port '+ port + '...');
+  console.log('Listening port '+ PORT + '...');
 });
