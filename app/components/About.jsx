@@ -2,7 +2,14 @@ var React = require('react');
 
 var About = () =>{
   return (
-      <h2>About component</h2>
+      <div>
+        <h1 className="text-center">About</h1>
+        <p>This is weather react applicaiton</p>
+        <ul>
+          <li><a href="#">React github</a></li>
+          <li><a href="#">React github</a></li>
+        </ul>
+      </div>
   );
 };
 module.exports = About
