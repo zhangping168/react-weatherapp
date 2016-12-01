@@ -9,6 +9,9 @@ var Examples = require('Examples');
 
 //load foundation-sites css
 require('style!css!foundation-sites/dist/foundation.min.css');
+
+//Load app.css
+require('style!css!applicationStyles');
 $(document).foundation();
 
 ReactDOM.render(
